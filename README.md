@@ -25,6 +25,10 @@ Core site details and area/service lists live in `lib/site.ts`. Provider/operato
 
 Each page has unique metadata and canonical URLs. The project includes Open Graph defaults, JSON-LD for the website, organisation, services and FAQs, plus generated `sitemap.xml` and `robots.txt`. No fake address, review, qualification or trading-history claims are included.
 
+## Analytics
+
+Google Analytics is configured globally with measurement ID `G-5GH862KPLK`. To change it, update the two Google tag references in the root `app/layout.tsx` file.
+
 ## Deploy to Vercel
 
 Push the repository to GitHub, import it in Vercel, add the environment variables above, and deploy using the detected Next.js settings. Connect `penarthplumbers.co.uk` only after updating DNS as instructed by Vercel.
